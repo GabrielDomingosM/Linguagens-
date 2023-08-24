@@ -1,0 +1,12 @@
+# 1) Faça um script que leia dois números e retorne como resultado a soma deles. Faça um script que leia algo
+# pelo teclado e mostra na tela o seu tipo de dado.
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+n3 = n1 + n2
+print(f"{n3} é a soma dos números")
+
+# negocio do teclado
+
+d = input("Digite qualquer coisa: ")
+print(type(d))
